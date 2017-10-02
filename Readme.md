@@ -1,4 +1,4 @@
-# Refinepro Pipeline
+# Refinepro Pipeline
 
 
 To tests your skills, we prepared a little test, please follow the steps.
@@ -14,7 +14,7 @@ This project come with all needed dependencies, including React Blueprint.
 You can import and use any component with `import { ... } from "@blueprintjs/core";` 
 
 
-## Step2 - code a page sample
+## Step2 - code a page sample
 Review the mockup in this repository (`test-ui.png).    
 Transform this mockup into JSX, inside this component `src/components/Test.js`.    
 
@@ -22,5 +22,6 @@ You can see it at this adress : `http://localhost:6076/#/test`
 
 
 
-## Step3 - Notify us
+## Step3 - Notify us
+Push your code.    
 Notify us with a link to your own github repository, where we can review the page sample
