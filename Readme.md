@@ -3,7 +3,7 @@
 
 To tests your skills, we prepared a little test, please follow the steps.
 
-## Initial Step
+## Initial Step
 Fork this repository into your own github account. Then proceed to Steps 2,3&4 into your own copy.
 
 ## Step 1 - Run the project
