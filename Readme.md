@@ -15,7 +15,7 @@ You can import and use any component with `import { ... } from "@blueprintjs/cor
 
 
 ## Step2 - code a page sample
-Review the mockup in this repository (`test-ui.png).    
+Review the mockup in this repository (`test-ui.png`).    
 Transform this mockup into JSX, inside this component `src/components/Test.js`.    
 
 You can see it at this adress : `http://localhost:6076/#/test` 
