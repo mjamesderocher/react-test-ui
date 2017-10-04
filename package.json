@@ -22,7 +22,11 @@
     "test:cli": "node ./tools/run_test.js cli"
   },
   "babel": {
-    "presets": ["es2015", "react", "babel-preset-stage-0"],
+    "presets": [
+      "es2015",
+      "react",
+      "babel-preset-stage-0"
+    ],
     "plugins": [
       "react-hot-loader/babel",
       "lodash",
@@ -38,14 +42,26 @@
     ],
     "env": {
       "test": {
-        "plugins": ["istanbul"]
+        "plugins": [
+          "istanbul"
+        ]
       }
     }
   },
   "nyc": {
-    "include": ["index.js", "src/**/*.js", "tools/cli/*.js"],
-    "exclude": ["tools/**/templates", ".tmp"],
-    "reporter": ["lcov", "text-summary"],
+    "include": [
+      "index.js",
+      "src/**/*.js",
+      "tools/cli/*.js"
+    ],
+    "exclude": [
+      "tools/**/templates",
+      ".tmp"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
     "cache": false,
     "sourceMap": false,
     "instrument": true
@@ -104,7 +120,6 @@
     "estraverse-fb": "^1.3.1",
     "file-loader": "^0.9.0",
     "jsdom": "^9.5.0",
-
     "lodash-webpack-plugin": "^0.10.0",
     "mocha": "^3.0.2",
     "mocha-webpack": "^0.7.0",
